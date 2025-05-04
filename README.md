@@ -1,6 +1,6 @@
 # ExpenseBuddy
 
-Overview:
+## Overview:
 A simple yet efficient Expense Tracker built using Flutter that helps users manage their personal finances with ease. The app allows users to add, view, and delete daily transactions, visualize their spending habits through charts, and maintain a clear record of their expenses.
 
 ## Key Features:
