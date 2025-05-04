@@ -5,17 +5,17 @@ A simple yet efficient Expense Tracker built using Flutter that helps users mana
 
 ## Key Features:
 
-Add new transactions with title, amount, and date
--> Display a list of recent transactions
--> Dynamic chart to visualize spending over the last 7 days
--> Responsive UI for all versions of Android
--> Local state management using setState
--> Clean and modular code structure following Flutter best practices
+-> Add new transactions with title, amount, and date  
+-> Display a list of recent transactions  
+-> Dynamic chart to visualize spending over the last 7 days  
+-> Responsive UI for all versions of Android  
+-> Local state management using setState  
+-> Clean and modular code structure following Flutter best practices  
 
 ## Tech Stack:
 
--> Frontend: Flutter (Dart)
--> State Management: setState (basic version)
--> UI Libraries: Flutter Material Components
+-> Frontend: Flutter (Dart)  
+-> State Management: setState (basic version)  
+-> UI Libraries: Flutter Material Components  
 
 
