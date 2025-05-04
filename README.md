@@ -1,16 +1,21 @@
-# expense_app
+# ExpenseBuddy
 
-A new Flutter project.
+Overview:
+A simple yet efficient Expense Tracker built using Flutter that helps users manage their personal finances with ease. The app allows users to add, view, and delete daily transactions, visualize their spending habits through charts, and maintain a clear record of their expenses.
 
-## Getting Started
+## Key Features:
 
-This project is a starting point for a Flutter application.
+Add new transactions with title, amount, and date
+-> Display a list of recent transactions
+-> Dynamic chart to visualize spending over the last 7 days
+-> Responsive UI for all versions of Android
+-> Local state management using setState
+-> Clean and modular code structure following Flutter best practices
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-> Frontend: Flutter (Dart)
+-> State Management: setState (basic version)
+-> UI Libraries: Flutter Material Components
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
