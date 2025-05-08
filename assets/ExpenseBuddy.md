@@ -1,6 +1,5 @@
 # Comprehensive Guide to Expense Tracker Application
 
-I'll break down every aspect of your Flutter expense tracker application, from its architecture to implementation details, to give you a complete understanding of how it works.
 
 ## 1. Application Architecture
 
