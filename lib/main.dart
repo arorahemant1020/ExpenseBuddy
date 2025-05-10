@@ -5,10 +5,12 @@ import 'dart:convert';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(ExpenseTrackerApp());
+  runApp(const ExpenseTrackerApp());
 }
 
 class ExpenseTrackerApp extends StatelessWidget {
+  const ExpenseTrackerApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,13 +31,16 @@ class ExpenseTrackerApp extends StatelessWidget {
           fillColor: Colors.grey[100],
         ),
       ),
-      home: MainScreen(),
+      home: const MainScreen(),
     );
   }
 }
 
 class MainScreen extends StatefulWidget {
+  const MainScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _MainScreenState createState() => _MainScreenState();
 }
 
@@ -65,7 +70,7 @@ class _MainScreenState extends State<MainScreen> {
             _currentIndex = index;
           });
         },
-        items: [
+        items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.account_balance_wallet),
             label: 'Expenses',
@@ -82,7 +87,10 @@ class _MainScreenState extends State<MainScreen> {
 }
 
 class ExpenseTrackerHome extends StatefulWidget {
+  const ExpenseTrackerHome({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _ExpenseTrackerHomeState createState() => _ExpenseTrackerHomeState();
 }
 
